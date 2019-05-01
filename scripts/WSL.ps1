@@ -1,5 +1,5 @@
 #--- Install the Windows Subsystem for Linux ---
-cinst -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+cinst -y Microsoft-Windows-Subsystem-Linux --source="windowsfeatures"
 
 #--- Install Ubuntu 18.04 LTS ---
 Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1804 -OutFile ~/Ubuntu.appx -UseBasicParsing
