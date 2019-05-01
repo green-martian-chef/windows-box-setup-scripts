@@ -43,7 +43,7 @@ executeScript "FileExplorerSettings.ps1";
 executeScript "CommonDesktopTools.ps1";
 executeScript "CommonUtils.ps1";
 executeScript "CommonDevTools.ps1";
-executeScript "RemoveDefaultApps.ps1";
+executeScript "RemoveBloatApps.ps1";
 executeScript "Browsers.ps1";
 executeScript "WSL.ps1";
 
